@@ -1,0 +1,50 @@
+.root {
+  min-width: 30px;
+  width: 12vw;
+  display: flex;
+  justify-content: flex-start;
+  height: 5vw;
+}
+
+.red {
+  background-color: rgb(230, 52, 67, 0.15) !important;
+}
+.blue {
+  background-color: rgba(109, 174, 228, 0.15) !important;
+}
+.green {
+  background-color: rgb(0, 144, 62, 0.15) !important;
+}
+.gray {
+  background-color: rgb(82, 91, 99, 0.15) !important;
+}
+
+.text-red {
+  color: rgb(230, 52, 67) !important;
+}
+.text-blue {
+  color: rgba(109, 174, 228) !important;
+}
+.text-green {
+  color: rgb(0, 144, 62) !important;
+}
+.text-gray {
+  color: rgb(82, 91, 99) !important;
+}
+
+.title,
+.sub-title {
+  font-size: calc(1vw) !important;
+  font-weight: bold !important;
+}
+
+@media (min-width: 420px) and (max-width: 682px) {
+  .root {
+    width: auto !important;
+    height: 8vw !important;
+  }
+  .title,
+  .sub-title {
+    font-size: calc(1.5vw) !important;
+  }
+}

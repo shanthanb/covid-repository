@@ -1,0 +1,31 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.state-table {
+  width: 50vw;
+}
+
+.map {
+  margin-top: 1.2rem;
+  width: 50vw;
+  height: 98%;
+}
+
+.card-border-radius {
+  border-radius: 10px !important;
+}
+
+@media screen and (max-width: 1238px) {
+  .main {
+    flex-direction: column;
+  }
+  .state-table {
+    width: 96vw;
+  }
+  .map {
+    width: 96vw;
+    margin-left: 1rem;
+  }
+}

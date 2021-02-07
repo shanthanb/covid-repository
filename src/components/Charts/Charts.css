@@ -1,0 +1,67 @@
+.chart {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.line-chart {
+  width: 50%;
+}
+.donut-chart {
+  width: 70%;
+  margin-left: -9rem;
+  margin-top: -1rem;
+}
+
+.header1 {
+  display: flex;
+  justify-content: flex-start;
+  height: 100px;
+}
+
+.main-title {
+  margin: 1rem;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  font-display: center;
+}
+
+.sub-title {
+  margin: 1rem;
+  color: gray;
+  font-size: 15px;
+  font-display: center;
+}
+
+.map-image {
+  background: rgb(121, 115, 115);
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 48px;
+  height: 48px;
+}
+@media screen and (max-width: 1238px) {
+  .chart {
+    margin-left: 1rem !important;
+    margin-top: 0.5rem !important;
+  }
+}
+
+@media screen and (max-width: 682px) {
+  .chart {
+    flex-direction: column;
+  }
+
+  .line-chart {
+    width: 100%;
+    margin-left: 1rem;
+  }
+  .donut-chart {
+    width: 100%;
+    margin: 0;
+    margin-left: -2rem;
+  }
+}
